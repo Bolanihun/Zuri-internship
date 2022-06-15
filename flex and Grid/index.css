@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+button{
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 5%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+  
+}
+.flex{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    margin-right: 5px;
+}
+
+.grid{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.flex:hover{
+    border: 2px solid hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+    
+}
+.grid:hover{
+    border: 2px solid hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+    
+}
+.flex a, .grid a{
+    color: white;
+    text-decoration: none;
+}
+.flex a:hover{
+    color: hsl(179, 100%, 13%);
+}
+.grid a:hover{
+    color: hsl(184, 100%, 22%);
+}
+
+
+.grid-container{
+    max-width: 960px;
+    display: grid;
+    margin: 50px auto;
+    gap: 10px;
+    
+
+
+
+}
+.top{
+display: grid;
+grid-template-columns: 2.5fr 1fr;
+gap: 10px;
+}
+.item1{
+background-color: rgb(245, 88, 88);
+height: 200px;
+
+}
+.item2{
+background-color: rgb(228, 243, 94);
+height: 200px;
+}
+.bottom{
+display: grid;
+grid-template-columns: 1fr 1.5fr;
+
+gap: 10px;
+}
+.item3{
+ background-color: rgb(73, 121, 2);
+ 
+}
+.item4{
+background-color: aliceblue;
+display: grid;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+}
+.child1{
+ background-color: rgb(166, 163, 219);
+ height: 100px;
+}
+.child2{
+background-color: rgb(166, 163, 219);
+height: 100px;
+}
+
+
+
+
