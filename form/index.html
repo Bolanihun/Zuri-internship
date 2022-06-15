@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="flex-container">
+            <div class="left">
+                <div class="content">
+                <h1>Learn to code by watching others</h1>
+                <p>
+                    See how experienced developers solve problems in real-time. Watching scripted tutorial is great,
+                    but understanding how developers think is invaluable.
+                </p>
+            </div>
+            </div>
+
+            <div class="right">
+                <button class="btn" id="offer">
+                    <span>Try it free 7 day</span> then $20/mo. thereafter
+                </button>
+                <form action="#">
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                    <input type="password" name="pword" id="pword" placeholder="Password" maxlength="20" minlength="8" required>
+                    <button class="btn" id="trial">claim your free trial</button>
+                    <div class="term">By clicking the button you are agreeing to our 
+                        <span class="term">Terms and Services</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
