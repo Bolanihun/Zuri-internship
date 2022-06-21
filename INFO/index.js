@@ -4,12 +4,14 @@
 
 
 
-const nAme = document.querySelector("h1")
-const height = document.querySelector("h2")
-const country = document.querySelector("h3")
+const nAme = document.getElementById('name')
+const height = document.getElementById('height')
+const country = document.getElementById('country')
 
-nAme.innerHTML = "AISHAH"
+nAme.textContent = "AISHAH"
 height.textContent = "3.5m"
-country.innerText = "NIGERIA"
+country.textContent = "NIGERIA"
+
+
 
 
